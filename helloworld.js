@@ -130,6 +130,71 @@ console.log(numero.length);
 // console.log( colecao_livros[5].nome );
 
 
-var nota = 5;
-var resultado = nota >= 7 ? 'Aprovado' : 'Reprovado';
-console.log(resultado);
+// var nota = 5;
+// var resultado = nota >= 7 ? 'Aprovado' : 'Reprovado';
+// console.log(resultado);
+
+// var numero_1 = 10;
+// var numero_2 = 15;
+
+// numero_1 += numero_2;
+
+// console.log( numero_1 >= numero_2 )
+
+// let paises = ["Brasil","Argentina","Canadá"];
+
+// let contador = 0;
+
+// while(contador < paises.length){
+//     console.log(paises[contador]);
+//     contador ++;
+// }
+
+// let paises = ["Brasil","Argentina","Canadá"];
+
+// for(let nomesPaises in paises){
+//     console.log(paises[nomesPaises]);
+// }
+
+// let cursos_idiomas = [
+//     { nome: "Inglês", preco: 2500, carga_horaria: 160 },
+//     { nome: "Espanhol", preco: 1500, carga_horaria: 110 },
+//     { nome: "Francês", preco: 3600, carga_horaria: 200 },
+//     { nome: "Chinês", preco: 5500, carga_horaria: 400 },
+//     { nome: "Alemão", preco: 3800, carga_horaria: 230 }
+// ];
+
+// for ( let curso of cursos_idiomas ) {
+
+//     let nome_curso = curso.nome;
+//     let preco_curso = curso.preco;
+//     let carga_horaria_curso = curso.carga_horaria;
+
+//     let preco_hora_curso = preco_curso / carga_horaria_curso;
+
+//     console.log("Nome do curso: " + nome_curso);
+//     console.log("Carga horária do curso: " + carga_horaria_curso + " horas");
+//     console.log("Preço do curso: R$" + preco_curso + ",00");
+
+//     if ( preco_hora_curso >= 15) {
+//         console.log("Hora/aula superior ou igual a R$15,00");
+//     } else {
+//         console.log("Hora/aula inferior a R$15,00");
+//     }
+
+//     console.log("\n");
+
+// };
+
+let label_nome = "Nome:";
+let valor_nome = "Jorge Luiz";
+
+let label_profissao = "Profissão:";
+let valor_profissao = "Professor";
+
+let label_endereco = "Endereço:";
+let valor_endereco = "Rua Cruzeiro do Sul";
+
+console.log( label_nome.padEnd(25, '.') + valor_nome );
+console.log( label_profissao.padEnd(25, '.') + valor_profissao );
+console.log( label_endereco.padEnd(25, '.') + valor_endereco );
